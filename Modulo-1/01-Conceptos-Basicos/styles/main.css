@@ -1,0 +1,15 @@
+body{
+    background-color: #f3f4f5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+p, h2, li{
+    font-size: 18px;
+    color: #757575;
+}
+img{
+    width: 300px;
+}
