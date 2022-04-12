@@ -1,0 +1,126 @@
+:root{
+    --color-nav: #333;
+    --color-text: #fff;
+    --font-open: 'Open Sans', sans-serif;
+    --font-shadow: 'Shadows Into Light Two', cursive;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: var(--font-open);
+    height: 100vh;
+}
+nav{
+    padding: 20px 0px;
+    background-color: var(--color-nav);
+    height: 60px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-container li{
+    padding-left: 15px;
+}
+.backgroundImg{
+    height: 400px;
+    background-image: url('../img/Depositphotos_131240710_xl-2015-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.backgroundText{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.backgroundText h1{
+    font-family: var(--font-open);
+    text-shadow: 0 0 2px black;
+    color: var(--color-text);
+    text-align: center;
+}
+.article-container{
+    margin-top: 20px;
+}
+.backbutton{
+    margin-top: 40px;
+    background-color: var(--color-nav);
+    border: none;
+    color: var(--color-text);
+    width: 130px;
+    height: 35px;
+    text-align: center;
+}
+.info-container{
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.design{
+    background-image: url('../icons/design.svg');
+}
+.develop{
+    background-image: url('../icons/develop.svg');
+    
+}
+.deploy{
+    background-image: url('../icons/deploy.svg');
+}
+.article-container p{
+    margin: 10px 0px;
+    padding: 0px 5px;
+}
+.info-button{
+    height: 35px;
+    width: 120px;
+    background-color: var(--color-text);
+}
+footer{
+    background-color: var(--color-nav);
+    color: var(--color-text);
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+}
+@media (min-width: 600px) {
+    .backgroundImg{
+        height: 600px;
+    }
+
+    .info-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 50px;
+    }
+    .backgroundText h1{
+        font-size: 60px;
+    }
+    footer{
+        position:relative;
+        width: 100%;
+        bottom: 0;
+    }
+}

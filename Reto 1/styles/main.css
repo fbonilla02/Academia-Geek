@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shadows+Into+Light+Two&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.main-conteiner{
+    background-image: url(../img/pastor-aleman-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 80vh;
+}
+.nav-bar{
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: rgba(251, 251, 251,0.3);
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+    align-content: center;
+}
+.left-nav{
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.right-nav{
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px;
+}
+.right-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+.right-nav li{
+    padding-right: 15px;
+}
+
+.right-nav ul a{
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+    padding-left: 15px;
+}
+.menu ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: flex;
+    flex-direction: row;
+}​
+
+#cabeza{
+    background-color: rgba(149, 164, 165, 0.5);
+}
+.info-container{
+    margin-top: 70px;
+    font-size: 22px;
+    width: 90%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info-container a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.video-conteiner{
+    margin: 20px 0px;
+}
+video{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+footer{
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
