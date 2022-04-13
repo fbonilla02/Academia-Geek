@@ -1,8 +1,7 @@
 :root{
     --color-nav: #333;
     --color-text: #fff;
-    --font-open: 'Open Sans', sans-serif;
-    --font-shadow: 'Shadows Into Light Two', cursive;
+    --font-raleway: 'Raleway', sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -10,7 +9,7 @@
     margin: 0;
 }
 body{
-    font-family: var(--font-open);
+    font-family: var(--font-raleway);
     height: 100vh;
 }
 nav{
@@ -34,7 +33,7 @@ a{
 }
 .backgroundImg{
     height: 400px;
-    background-image: url('../img/Depositphotos_131240710_xl-2015-scaled.jpg');
+    background-image: url(/img/Depositphotos_131240710_xl-2015-scaled.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +46,7 @@ a{
     justify-content: center;
 }
 .backgroundText h1{
-    font-family: var(--font-open);
+    font-family: var(--font-raleway);
     text-shadow: 0 0 2px black;
     color: var(--color-text);
     text-align: center;
@@ -63,6 +62,7 @@ a{
     width: 130px;
     height: 35px;
     text-align: center;
+    cursor: pointer;
 }
 .info-container{
     display: grid;
@@ -95,9 +95,15 @@ a{
     padding: 0px 5px;
 }
 .info-button{
+    cursor: pointer;
     height: 35px;
     width: 120px;
     background-color: var(--color-text);
+}
+.info-button:hover{
+    background-color: #333;
+    border:none;
+    color: var(--color-text);
 }
 footer{
     background-color: var(--color-nav);
