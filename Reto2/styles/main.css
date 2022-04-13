@@ -33,7 +33,7 @@ a{
 }
 .backgroundImg{
     height: 400px;
-    background-image: url(/img/Depositphotos_131240710_xl-2015-scaled.jpg);
+    background-image: url('../img/Depositphotos_131240710_xl-2015-scaled.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
