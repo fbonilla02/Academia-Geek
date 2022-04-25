@@ -1,0 +1,135 @@
+
+/* 1.Posicionamiento
+2.Modelo caja (box model)
+3.Tipografía
+4.visuales
+5. Otros
+ */
+
+:root{
+    --primary-color: #1B90FC;
+    --grey-color: #929292;
+    --black-color: #202020;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+.grid-container{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    height: 90vh;
+}
+.div-container{
+    height: 100vh;
+    background-color: var(--black-color);
+    clip-path: polygon(0% 0%,100% 0%,100% 88%,0% 100%);
+}
+
+.imagen-container{
+    background-image: url('../img/img1.png');
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.info-container {
+    padding: 25px 25px;
+    display: grid;
+    grid-template-rows: auto auto 1fr 1fr;
+}
+.info-container img{
+    width: 30%;
+    padding-bottom: 15px;
+}
+.title{
+    padding: 10px 0px;
+}
+.text{
+    padding: 15px 0px 25px;
+    font-size: 1.4rem;
+    line-height: 25px;
+}
+.info-container .button{
+    max-width: 840px;
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+}
+/*
+.main-container:before {
+    padding: 10px 0px;
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    border-bottom: 75px solid white;
+    border-left: 360px solid var(--black-color);
+    width: 0;
+} */
+
+@media screen and (min-width: 320px) {
+    .imagen-container{
+        width: 100%;
+    }
+    .info-container{
+        padding: 25px 25px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .info-container{
+        padding: 25px 65px;
+    }
+
+    .info-container img{
+        width: 193px;
+    }
+    .title{
+        font-size: 4.0rem;
+    }
+    .text{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (min-width:1366px ){
+    .grid-container{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100vh;
+    }
+    .imagen-container{
+        width: 60%;
+        clip-path: polygon(0% 1%,100% 0%,100% 50%,100% 100%,10% 100%);
+    }
+    .div-container{
+        clip-path: polygon(0% 0%,100% 0%,100% 85%,0% 100%);
+    }
+    .info-container .button{
+        width: 40%;
+        min-width: none;
+    }
+    .info-container {
+        width: 80%;
+        padding-right: 10px;
+    }
+}
