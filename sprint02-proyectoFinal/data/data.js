@@ -5,10 +5,10 @@ export const contenido = [
         views: 630 ,
         date: "10 ago 2021",
         category: "programacion",
-        img: "../img/img-1.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-1.png",
+        avatar: "/img/Avatar.svg",
         id:1,
-        video: "../videos/1.mp4"
+        video: "/videos/1.mp4"
     },
     {
         nameVideo: "Jugando Valorant",
@@ -16,10 +16,10 @@ export const contenido = [
         views: 130 ,
         date: "11 sep 2021",
         category: "juegos",
-        img: "../img/pro1.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/pro1.jpg",
+        avatar: "/img/Avatar.svg",
         id:2,
-        video: "../videos/2.mp4"
+        video: "/videos/2.mp4"
     },
     {
         nameVideo: "React",
@@ -27,10 +27,10 @@ export const contenido = [
         views: 210 ,
         date: "10 enero 2021",
         category: "programacion",
-        img: "../img/img-3.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-3.png",
+        avatar: "/img/Avatar.svg",
         id:3,
-        video: "../videos/wos-Arrancamelo.mp4"
+        video: "/videos/wos-Arrancamelo.mp4"
     },
     {
         nameVideo: "Wos- Lleno de safiros",
@@ -38,10 +38,10 @@ export const contenido = [
         views: 10000 ,
         date: "11 sep 2022",
         category: "musica",
-        img: "../img/img-2.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-2.png",
+        avatar: "/img/Avatar.svg",
         id:4,
-        video: "../videos/m1.mp4"
+        video: "/videos/m1.mp4"
     },
     {
         nameVideo: "dime FMK, dannI",
@@ -49,10 +49,10 @@ export const contenido = [
         views: 5110 ,
         date: "11 sep 2011",
         category: "musica",
-        img: "../img/img-1.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-1.png",
+        avatar: "/img/Avatar.svg",
         id:5,
-        video: "../videos/m2.mp4"
+        video: "/videos/m2.mp4"
     },
 
     {
@@ -61,8 +61,8 @@ export const contenido = [
         views: 230 ,
         date: "11 sep 2011",
         category: "musica",
-        img: "../img/img-2.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-2.png",
+        avatar: "/img/Avatar.svg",
         id:6,
     },
     {
@@ -71,8 +71,8 @@ export const contenido = [
         views: 400 ,
         date: "11 sep 2017",
         category: "juegos",
-        img: "../img/img-4.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-4.png",
+        avatar: "/img/Avatar.svg",
         id:7
     },
     {
@@ -81,8 +81,8 @@ export const contenido = [
         views: 400 ,
         date: "11 nov 2017",
         category: "juegos",
-        img: "../img/img-5.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-5.png",
+        avatar: "/img/Avatar.svg",
         id:8
     },
     {
@@ -91,8 +91,8 @@ export const contenido = [
         views: 400 ,
         date: "11 sep 2027",
         category: "juegos",
-        img: "../img/img-5.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-5.png",
+        avatar: "/img/Avatar.svg",
         id:9
     },
     {
@@ -101,8 +101,8 @@ export const contenido = [
         views: 400 ,
         date: "12 sep 1097",
         category: "juegos",
-        img: "../img/ms1.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/ms1.jpg",
+        avatar: "/img/Avatar.svg",
         id:10
     },
     {
@@ -111,8 +111,8 @@ export const contenido = [
         views: 400 ,
         date: "10 feb 2017",
         category: "juegos",
-        img: "../img/j2.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/j2.jpg",
+        avatar: "/img/Avatar.svg",
         id:11
     },
     {
@@ -121,8 +121,8 @@ export const contenido = [
         views: 400 ,
         date: "10 mayo 2021",
         category: "programacion",
-        img: "../img/j1.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/j1.jpg",
+        avatar: "/img/Avatar.svg",
         id:12
     },
     {
@@ -131,8 +131,8 @@ export const contenido = [
         views: 400 ,
         date: "10 mayo 2021",
         category: "programacion",
-        img: "../img/img-6.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-6.png",
+        avatar: "/img/Avatar.svg",
         id:13
     },
     {
@@ -141,8 +141,8 @@ export const contenido = [
         views: 400 ,
         date: "10 mayo 2021",
         category: "juegos",
-        img: "../img/img-3.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-3.png",
+        avatar: "/img/Avatar.svg",
         id:14
     },
     {
@@ -151,8 +151,8 @@ export const contenido = [
         views: 400 ,
         date: "16 mayo 2021",
         category: "musica",
-        img: "../img/img-6.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-6.png",
+        avatar: "/img/Avatar.svg",
         id:15
     },
     {
@@ -161,8 +161,8 @@ export const contenido = [
         views: 400 ,
         date: "12 mayo 2022",
         category: "musica",
-        img: "../img/img-6.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-6.png",
+        avatar: "/img/Avatar.svg",
         id:16
     },
     {
@@ -171,8 +171,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 2022",
         category: "musica",
-        img: "../img/pro2.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/pro2.jpg",
+        avatar: "/img/Avatar.svg",
         id:17
     },
     {
@@ -181,8 +181,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 2021",
         category: "musica",
-        img: "../img/ms1.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/ms1.jpg",
+        avatar: "/img/Avatar.svg",
         id:18
     },
     {
@@ -191,8 +191,8 @@ export const contenido = [
         views: 400 ,
         date: "10 diciembre 2021",
         category: "programacion",
-        img: "../img/pro2.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/pro2.jpg",
+        avatar: "/img/Avatar.svg",
         id:19
     },
     {
@@ -201,8 +201,8 @@ export const contenido = [
         views: 400 ,
         date: "10 feb 2015",
         category: "programacion",
-        img: "../img/j2.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/j2.jpg",
+        avatar: "/img/Avatar.svg",
         id:20
     },
     {
@@ -211,8 +211,8 @@ export const contenido = [
         views: 400 ,
         date: "10 feb 2020",
         category: "musica",
-        img: "../img/j1.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/j1.jpg",
+        avatar: "/img/Avatar.svg",
         id:21
     },
     {
@@ -221,8 +221,8 @@ export const contenido = [
         views: 400 ,
         date: "10 junio 2020",
         category: "juegos",
-        img: "../img/img-3.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-3.png",
+        avatar: "/img/Avatar.svg",
         id:22
     },
     {
@@ -231,8 +231,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 2021",
         category: "programacion",
-        img: "../img/img-6.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-6.png",
+        avatar: "/img/Avatar.svg",
         id:23
     },
     {
@@ -241,8 +241,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 1010",
         category: "programacion",
-        img: "../img/img-5.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-5.png",
+        avatar: "/img/Avatar.svg",
         id:24
     },
     {
@@ -251,8 +251,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 1010",
         category: "programacion",
-        img: "../img/img-1.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-1.png",
+        avatar: "/img/Avatar.svg",
         id:25
     },
     {
@@ -261,8 +261,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 1996",
         category: "juegos",
-        img: "../img/pro1.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/pro1.jpg",
+        avatar: "/img/Avatar.svg",
         id:26
     },
     {
@@ -271,8 +271,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 2201",
         category: "musica",
-        img: "../img/img.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img.png",
+        avatar: "/img/Avatar.svg",
         id:27
     },
     {
@@ -281,8 +281,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 2201",
         category: "musica",
-        img: "../img/pro2.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/pro2.jpg",
+        avatar: "/img/Avatar.svg",
         id:28
     },
     {
@@ -291,8 +291,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 2020",
         category: "programacion",
-        img: "../img/img-4.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-4.png",
+        avatar: "/img/Avatar.svg",
         id:29
     },
     {
@@ -301,8 +301,8 @@ export const contenido = [
         views: 400 ,
         date: "10 abril 2022",
         category: "programacion",
-        img: "../img/img-4.png",
-        avatar: "../img/Avatar.svg",
+        img: "/img/img-4.png",
+        avatar: "/img/Avatar.svg",
         id:30
     },
     {
@@ -311,8 +311,8 @@ export const contenido = [
         views: 400 ,
         date: "15 mayo 2011",
         category: "musica",
-        img: "../img/ms1.jpg",
-        avatar: "../img/Avatar.svg",
+        img: "/img/ms1.jpg",
+        avatar: "/img/Avatar.svg",
         id:31
     },
 
