@@ -6,7 +6,7 @@ let cuentat = 0;
 let cuentaf = 0;
 
 
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 20; i++) {
         const valor = prompt("digite (P) para Pánico, (T) para trauma mental y (F), para daño físico.");
         console.log(i);
         const mini = valor.toLowerCase()
