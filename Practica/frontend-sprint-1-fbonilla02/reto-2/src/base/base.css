@@ -1,0 +1,19 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+
+body {
+    /* background-image: var(--Gradient); */
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+
+h3{
+    color: var(--Salmon);
+}
+footer{
+    text-align: center;
+    padding: 25px 0px;
+}
+i{
+    cursor: pointer;
+}

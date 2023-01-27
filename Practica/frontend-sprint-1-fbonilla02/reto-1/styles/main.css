@@ -1,0 +1,73 @@
+
+:root{
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.borderr-red{
+    border-color: var(--Soft-Red);
+}
+.border-blue{
+    border-color: var(--Soft-Blue);
+}
+.font-blue{
+    color: var(--Soft-Blue);
+}
+.font-grayish{
+    color: var(--Grayish-Blue);
+}
+.font-darl-blue{
+    color: var(--Very-Dark-Blue);
+}
+.bg-color-soft{
+    background-color: var(--Soft-Blue);
+}
+.puntitos{
+    background-image: url('../images/bg-dots.svg');
+}
+.bg-color-soft-red{
+    background-color: var(--Soft-Red);
+}
+.bg-color-Very-Dark{
+    background-color: var(--Very-Dark-Blue);
+}
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: block;
+    
+}
+.rotate{
+    transform: rotate(3.142rad);
+    color: var(--Soft-Red);
+}
+ .barra{
+    background-image: url('../images/barra.svg');
+    background-repeat: no-repeat    ;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media screen and (min-width:768px){
+    .barra{
+        background-image: url('../images/barra.svg');
+        background-repeat: no-repeat;
+        background-size: 400px;
+
+        width: auto;
+        position: absolute;
+        left: 65%;
+        top: 40%;
+        
+    }
+}

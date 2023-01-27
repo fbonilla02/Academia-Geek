@@ -1,0 +1,22 @@
+{
+  "name": "postcssexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/style.css --dir public --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "postcss-cli": "^9.1.0",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-dark-theme-class": "^0.7.3",
+    "postcss-import": "^14.1.0",
+    "postcss-nesting": "^10.1.6",
+    "postcss-preset-env": "^7.5.0"
+  }
+}

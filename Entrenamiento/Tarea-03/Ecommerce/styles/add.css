@@ -1,0 +1,153 @@
+:root{
+    --primary-color: #181818;
+
+    --gray-color: #6F6F6F;
+    --white-color: #fff;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f8f8;
+    color: #48bbca;
+}
+.navbar{
+    padding: 0px 28px;
+    color: #48bbca;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.right-bar{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navbar a{
+    color: inherit;
+    display: contents;
+}
+.navbar img{
+    width: 80px;
+}
+.navbar i{
+    height:30px ;
+    width: 20px;
+    color: #f8c538;
+}
+.navbar .cantidad{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: red;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.main-container a{
+    padding: 30px 0px 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 100%;
+
+
+}
+.container h1{
+    text-align: center;
+}
+.container input{
+    font-size: 1.5rem;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 10px;
+}
+
+.container input[type=text],
+.container input[type=number]{
+    padding-left: 10px;
+}
+
+.contain-date{
+    display: flex;
+    justify-content: space-between;
+}
+.contain-date input:nth-child(1){
+    width: 65%;
+}
+.contain-date input:nth-child(2){
+    width: 32%;
+}
+
+.container input::placeholder{
+    padding-left: 5px;
+}
+.btn-sent{
+
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    height: 35px;
+    background-color: #1073f8;
+    color: #fff;
+    border: none;
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+}
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul {
+    color: #48bbca;
+    font-size: 1.5rem;
+    font-weight: 500px;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.left li {
+    margin: 10px 0;
+}
+.left a {
+    text-decoration: none;
+    color: var(--just-white);
+}
+.right img{
+    width: 100px;
+}
+@media screen and (min-width:768px) {
+    .container{
+        max-width: 700px;
+    }
+}

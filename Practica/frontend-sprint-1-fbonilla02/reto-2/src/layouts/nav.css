@@ -1,0 +1,21 @@
+
+.nav-container{
+    display: grid;
+    grid-auto-flow: row;
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+
+    & a{
+        display: contents;
+    }
+}
+.img-container img{
+    width: 100px;
+}
+.ocultar{
+    display: none;
+}

@@ -1,0 +1,66 @@
+.secondSection-text{
+    text-align: center;
+    & h2{
+        font-size: 40px;
+        padding:  20px 0px;
+    }
+    & p {
+        padding: 0px 10px;
+    }
+}
+.kebac{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    & img{
+        width: 80%;
+    }
+
+    & .starts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    height: 50px;
+        & img{
+        width: 30%;
+    }
+    }
+    & button{
+        top: 10px;
+        cursor: pointer;
+    }
+}
+.bgcolor{
+    margin: 0px 40px;
+    border-radius: 20px;
+    background: linear-gradient(3deg, rgba(255,185,185,0.4374124649859944) 0%, rgba(255,255,255,0.22452731092436973) 100%);
+    
+}
+button{
+    position: relative;
+    border: none;
+    color: var(--White);
+    border-radius: 50px;
+    background-color: var(--Salmon);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.fa-star{
+    color: var(--Yellow);
+}
+.kebac-text{
+    padding: 10px;
+    & h3{
+        font-size: 24px;
+        color: var(--Salmon);
+    }
+    & p{
+        padding: 0px 5px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}

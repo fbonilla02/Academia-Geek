@@ -1,0 +1,42 @@
+{
+  "name": "etapa2proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://fbonilla02.github.io/sprint1-reto2",
+  "scripts": {
+    "node": "node ./src/data/server.js",
+    "start": "webpack-dev-server --mode=development --config webpack.config.js ",
+    "json": "json-server --watch src/data/data.json",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "francisco bonilla <franciscobonillac@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.0",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
+    "html-loader": "^3.1.0",
+    "html-minimizer-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "postcss-loader": "^7.0.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.24",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

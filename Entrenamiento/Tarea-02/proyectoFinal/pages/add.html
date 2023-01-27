@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/add.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Agregar video</title>
+</head>
+<body>
+    <div class="main-container">
+        <a href="../index.html">
+            <img src="../icon/Frame15.svg" alt="">
+        </a>
+        <section class="container">
+            <form action="" id="form" class="container">
+            <input type="text" placeholder="Name Video" id="name" maxlength="60">
+            <input type="text" placeholder="Plubusher" id="publisher" maxlength="20">
+            <input type="number" placeholder="views" id="views" min="0" >
+            <input type="date" placeholder="dd/mm/aaaa" id="date" >
+            <input type="text" id="categoria" placeholder="category" list="category">
+            <datalist id="category">
+                <option value="programacion">programacion</option>
+                <option value="musica">musica</option>
+                <option value="juegos">juegos</option>
+            </datalist>
+            <input type="text" placeholder="Poster" id="poster" >
+            <button class="btn-sent" type="submit">Enviar</button>
+            </form>
+
+        </section>
+    </div>
+    <script src="../scripts/add.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

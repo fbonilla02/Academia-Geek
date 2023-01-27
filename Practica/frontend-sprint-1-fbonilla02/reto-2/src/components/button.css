@@ -1,0 +1,25 @@
+.filtros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 28px;
+    height: 80px;
+    width: 100%;
+    overflow-x: auto;/*auto hidden*/
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.filtros button{
+    background-color: var(--White);
+    margin-right: 8px;
+    border-radius: 44px;
+    color: gray;
+    border:  1px solid gray;
+    padding: 8px 16px;
+
+}
+button:focus{
+    background-color: var(--Salmon);
+    color: var(--White);
+    border: 0;
+}

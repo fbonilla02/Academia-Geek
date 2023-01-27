@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "zapatos nike color blanco y azul",
+      "img": "../img/zapato1.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "ropa",
+      "price": 120.999,
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "name": "zapatos color negro y blanco deportivos",
+      "img": " ../img/zapato2.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "ropa",
+      "price": 140.999,
+      "stock": 4
+    },
+    {
+      "id": 3,
+      "name": "Tacones de moda azules",
+      "img": " ../img/tacon.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "ropa",
+      "price": 130.999,
+      "stock": 12
+    },
+    {
+      "id": 4,
+      "name": "Zapatos rojos nike ",
+      "img": " ../img/zapatos4.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "ropa",
+      "price": 100.999,
+      "stock": 6
+    },
+    {
+      "id": 5,
+      "name": "Gafas",
+      "img": " ../img/gafas.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "ropa",
+      "price": 55.999,
+      "stock": 0
+    },
+    {
+      "id": 6,
+      "name": "zapatos comodicimos",
+      "img": " ../img/zapato3.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "ropa",
+      "price": 167.999,
+      "stock": 6
+    },
+    {
+      "id": 7,
+      "name": "audifonos nuevos",
+      "img": " ../img/audifonos.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "accesorios",
+      "price": 30.999,
+      "stock": 5
+    },
+    {
+      "id": 8,
+      "name": "audifonos blancos",
+      "img": " ../img/audifonos2.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "accesorios",
+      "price": 49.999,
+      "stock": 9
+    },
+    {
+      "id": 9,
+      "name": "smartwatch nuevo",
+      "img": " ../img/smartwatch.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "accesorios",
+      "price": 349.099,
+      "stock": 9
+    },
+    {
+      "id": 10,
+      "name": "dron uwu",
+      "img": " ../img/dron.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "accesorios",
+      "price": 999.999,
+      "stock": 2
+    },
+    {
+      "id": 11,
+      "name": "Perfume de los mejores",
+      "img": " ../img/perfume.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "accesorios",
+      "price": 89.999,
+      "stock": 1
+    },
+    {
+      "id": 12,
+      "name": "lapiz para tablet ",
+      "img": " ../img/lapiz.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "accesorios",
+      "price": 170.999,
+      "stock": 10
+    },
+    {
+      "id": 13,
+      "name": "mouse inalambrico gamer",
+      "img": " ../img/mouse.jpg",
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi non doloribus quibusdam vero commodi",
+      "category": "accesorios",
+      "price": 540.999,
+      "stock": 5
+    }
+  ],
+  "infoBuy": [
+    {
+      "name": "Francisco Bonilla",
+      "correo": "franciscobonillac@gmail.com",
+      "tarjeta": "23425612341",
+      "expiration": "2023-07",
+      "cvv": "123",
+      "id": 1
+    },
+    {
+      "name": "Francisco Bonilla",
+      "correo": "franciscobonillac@gmail.com",
+      "tarjeta": "23425612341",
+      "expiration": "2023-07",
+      "cvv": "123",
+      "id": 2
+    }
+  ]
+}

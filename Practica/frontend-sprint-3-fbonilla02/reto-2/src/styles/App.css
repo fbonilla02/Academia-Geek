@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+.App{
+  background-image: url('../images/bg-desktop-light.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.App2{
+  background-image: url('../images/bg-desktop-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px ;
+  padding-bottom: 50px;
+}
+
+.val{
+  width: 70%;
+}
+.form {
+  display: flex;
+}
+.input{
+  height: 40px;
+  width: 100%;
+}
+.btnSend{
+  width: 100px;
+  
+}
+
+
+.title{
+  color: white;
+  letter-spacing: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+.divXD{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+}
+.iconColor{
+  font-size: 28px;
+  cursor: pointer;
+}

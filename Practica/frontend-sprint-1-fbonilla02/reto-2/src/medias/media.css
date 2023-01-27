@@ -1,0 +1,96 @@
+@custom-media --small-viewport (min-width: 840px);
+
+@media (--small-viewport) {
+    /* NAV */
+    .nav-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+        & ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+    }
+    .hidden{
+        display: none;
+    }
+    .ocultar{
+        display: block;
+    }
+    
+    li{
+        padding: 0px 10px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: var(--global-foreground);
+    }
+    /* FIRST SECTION  */
+    .firstContainer{
+        display: grid;
+        grid-template-columns: 45% 1fr;
+        column-gap: 20px;
+        align-items: center;
+        
+    }
+    .kebac{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+        & button{
+            top: 10px;
+        }
+    }
+    
+    
+    
+    .img-firstContainer{
+        order: 2;
+    & img{
+        width: 50vw;
+    }
+    }
+    .thirdSection{
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+    .list-grid{
+        grid-template-columns: 1fr 1fr;
+        & button{
+            width: 40%;
+        }
+    }
+    .filtros {
+        justify-content: center;
+    }
+    .fiveSection{
+        padding: 0px 0px 0px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        align-items: center;
+        & .third-Img{
+            order: 2;
+        }
+    }
+    .sixSection{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        & .getInTouch{
+            padding-left: 10px;
+        }
+        & .formEmail{
+            justify-content: normal;
+        }
+        & .six{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+}

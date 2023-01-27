@@ -1,0 +1,57 @@
+.sixSection{
+    padding: 10px;
+    & h3{
+        padding: 10px 0px;
+    }
+    & p {
+        margin: 15px 0px;
+    }
+}
+
+.six-info{
+    margin: 20px 0px;
+    
+    & h2{
+        color: var(--Salmon);
+    }
+    & i {
+        padding-right: 15px;
+        color: var(--Yellow);
+    }
+   
+}
+.six-li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    & li{
+        list-style: none;
+    }
+   
+}
+.formEmail{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    gap: 25px;
+     
+    & input {
+        height: 100%;
+        border-radius: 25px;
+        border: 0;
+        width: 100%;
+    }
+    & input::placeholder {
+        padding: 10px;
+        background-color:#e8e8e8;
+        
+    }
+    & button{
+        background-color: var(--Salmon);
+        border: none;
+        border-radius: 25px;
+        padding: 0px 20px;
+        color: white;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Ubuntu:wght@300;500;700&display=swap');
+
+
+.bg-color-blue-back{
+    background-color: #F1F8F6;
+}
+
+.favcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.containerCrud{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}

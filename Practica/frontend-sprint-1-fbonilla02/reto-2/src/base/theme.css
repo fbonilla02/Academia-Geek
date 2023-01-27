@@ -1,0 +1,17 @@
+:root {
+  --global-background: hsl(0 0% 100%);
+  --global-text: hsl(0 0% 0%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-background: hsl(0 0% 0%);
+    --global-text: hsl(0 0% 100%);
+  }
+}
+
+html {
+  background-color: var(--global-background);
+  color: var(--global-text);
+  transition: all 200ms;
+}

@@ -1,0 +1,78 @@
+.listas{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    list-style: none;
+    border: 1px solid gray;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.05);
+
+}
+.liValue{
+    list-style: none;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-wrap: break-word;
+    padding: 0px 5px;
+    border-bottom: 1px solid gray;
+}
+.liValue:last-child{
+    border-bottom: 0px solid gray;
+}
+.check{
+    display: inline;
+    padding: 2px 4px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.text{
+    padding: 5px;
+}
+.cruz{
+    color: gray;
+    font-size: 20px;
+    display: inline-block;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.cruz:hover{
+    color: red;
+}
+.ocult {
+    display: hidden;
+}
+.total{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.TodoItem-p--complete {
+    text-decoration: line-through;
+  }
+  .Icon-check--active{
+    display: inline;
+    padding: 2px 4px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(162,119,228,1) 0%, rgba(121,184,247,1) 100%);
+    color: white;
+    font-weight: 800;
+  }
+
+.click{
+    cursor: pointer;
+}
+.click:hover{
+    font-size: 18px;
+}

@@ -1,0 +1,51 @@
+.thirdSection{
+    margin-top: 20px;
+    padding: 0px 10px;
+    width: 100vw;
+    & b:nth-child(2){
+        color: var(--Yellow);
+    }
+    & h2{
+        font-size: 40px;
+    }
+    
+}
+.third-Img{
+    & img{
+        width: 100%;
+    }
+
+}
+.list-grid{
+    margin-top: 20px;
+    display: grid;
+    & button{
+        margin: 20px 0px;
+        color: var(--White);
+        padding: 10px;
+        background-color: var(--Salmon);
+        border: none;
+        border-radius: 25px;
+        width: 30%;
+        cursor: pointer;
+    }
+}
+.uls{
+    display: grid;
+
+    & li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 10px 0px;
+    }
+    & img{
+        width: 25px;
+
+    }
+    & p{
+        
+        padding-left: 10px;
+    }
+    
+}

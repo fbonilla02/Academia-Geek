@@ -1,0 +1,116 @@
+.firstContainer{
+    padding: 0px 10px;
+    & b:nth-child(3){
+        color: var(--Yellow);
+    }
+    & p {
+        cursor: pointer;
+    }
+    & img{
+        cursor: pointer;
+    }
+}
+.img-firstContainer{
+    display: flex;
+    justify-content: center;
+}
+.img-firstContainer img{
+    width: 90vw;
+}
+.slider img{
+    height: 70px;
+    padding-left: 30px;
+}
+
+
+.trust{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #feeae9;
+    margin: 10px 10px;
+    font-size: 12px;
+    height: 30px;
+    width: 120px;
+    & img {
+        height: 50%;
+        padding-left: 5px;
+    }
+    & p{
+        padding-left: 5px;
+        color: black;
+    }
+
+}
+h1{
+    font-size: 40px;
+}
+b {
+    color: var(--Salmon);
+}
+.linea{
+    width: 70%;
+}
+.firstContainer-info{
+   & p {
+        margin: 20px 0px;
+    }
+}
+.firstContainer-down{
+    display: flex;
+    margin: 10px 0px;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    & img{
+        height: 80%;
+    }
+    & p:nth-child(1){
+        background-color: var(--Salmon);
+        color: var(--White);
+        padding: 10px 5px;
+        border-radius: 20px;
+        font-size: 15px;
+        width: 130px;
+    }
+}
+.search{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    & form{
+        width: 100%;
+    }
+    & input{
+        width: 100%;
+        border:0;
+        height: 45px;
+        appearance:none;
+        border-color: transparent;
+        background-color: var(--global-background);
+
+    }
+    & input:focus{
+        padding-left: 10px;
+        outline: none;
+        
+    }
+    & input::placeholder{
+        padding-left: 10px;
+       color: var(--global-text);
+    }
+    & img{
+        height: 95%;
+        padding-right: 2px;
+        cursor: pointer;
+    }
+    & i{
+        padding-left: 10px;
+    }
+    
+}

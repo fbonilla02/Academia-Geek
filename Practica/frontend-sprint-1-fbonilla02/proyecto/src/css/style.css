@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Ubuntu:wght@300;500;700&display=swap');
+/*
+ 00c194
+ 01ac84
+ */
+body{
+font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-color-green{
+    background-color: #00c194;
+}
+.bg-color-green-dark{
+    background-color: #01ac84;
+}
+.text-color-green{
+color: #00c194;
+}
+.bg-color-blue-back{
+    background-color: #F1F8F6;
+}
+.bg-color-green-claro{
+    background-color: #e9fffa;
+}
+.font-color-dark{
+color: #001A14;
+}
+.active{
+    background-color: #00c194;
+    color: white;
+}
+.pDafoe{
+    font-family: 'Mr Dafoe', cursive;
+    opacity: 0.1;
+}
+.backgroundImg{
+    background-image: url('https://res.cloudinary.com/dixwwvzbt/image/upload/v1653168117/proyecto%20final/back_vtnnkc.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+.bg-general{
+    background-color: #f6f6f6;
+}
+.grid-responsive{
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+.grid-responsive2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+.grid-rows-dos{
+    grid-template-rows: 1fr 50%;
+}
+.border-green{
+    border: 3px solid #00c194;
+}
+.techHouse{
+    background-image: url('https://res.cloudinary.com/dixwwvzbt/image/upload/v1653279557/proyecto%20final/client-logo-2_so8b0f.svg');
+}
+.bg-prefooter{
+    background-color: #f4fffd;
+}
+.bg-footer{
+    background-color: #24334a;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 350px 180px 300px 300px ;
+    justify-content: space-around;
+    gap: 20px;
+}
+.footer-icon{
+    background-color: #2d4864;
+}
+.footer-icon:hover{
+    background-color: #00c194;
+}
+.bg-copy{
+    color: white;
+    background-color: #1d2a3d;
+}
+
+.favcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.containerCrud{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
+uwu{
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}

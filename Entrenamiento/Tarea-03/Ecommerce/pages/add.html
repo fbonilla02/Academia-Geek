@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/add.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Agregar producto</title>
+</head>
+<body>
+    <div id="navContainer">
+
+    </div>
+
+    <div class="main-container">
+        <a href="../index.html">
+           
+        </a>
+        <section class="container">
+            <h1>Agregar Productos</h1>
+            <form action="" id="form" class="container">
+            <input type="text" placeholder="Nombre Producto" id="name" maxlength="20">
+            <input type="number" placeholder="Precio" id="precio" min="0" >
+            <input type="text" placeholder="descripcion" id="descri"maxlength="60">
+            <input type="text" id="categoria" placeholder="categoria" list="category">
+            <datalist id="category">
+                <option value="ropa">ropa</option>
+                <option value="accesorios">accesorios</option>
+            </datalist>
+            <input type="text" placeholder="imagen del producto" id="img" >
+            
+            <button class="btn-sent" type="submit">Agregar</button>
+            </form>
+        </section>
+    </div>
+    <div id="containerFooter">
+
+    </div>
+    <script src="../script/add.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/03ebec4f46.js" crossorigin="anonymous"></script>
+</body>
+</html>

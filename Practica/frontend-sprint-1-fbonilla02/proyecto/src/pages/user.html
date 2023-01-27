@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/user.css">
+    <title>User</title>
+</head>
+<body>
+  <nav class="h-20 grid grid-cols-2 px-5 items-center ">
+   <a href="./index.html"><img class="h-16" src="https://res.cloudinary.com/dixwwvzbt/image/upload/v1653164842/proyecto%20final/Logo_etsu3p.png" alt=""></a>
+    <div >
+        <ul class="flex justify-end">
+          <a href="./index.html"><li class="pr-5 cursor-pointer">Back</li></a>
+            <li class="pr-5 cursor-pointer">Carrito</li>
+        </ul>
+    </div>
+</nav>
+<main class="bg-color-blue-back">
+     
+      <h2 class="text-2xl text-center my-3">Productos en Favoritos</h2>
+      <div class="mx-28 gap-3" id="Likes">
+        <div class="containerCrud">
+        <article class="bg-white border-b-2 justify-items-center pb-2 grid grid-cols-3 " >
+          <div class=" flex flex-col items-center ">
+          <p class="text-color-green">${type}</p>
+          <img class="h-28 cursor-pointer" src="https://res.cloudinary.com/dixwwvzbt/image/upload/v1653235204/proyecto%20final/Rectangle4_w3bpgc.png" alt="imagen" >
+          </div>
+          <div class="flex flex-col justify-center  ">
+          <p class=" px-2 w-24 text-center bg-color-green text-white">For ${to}  </p><span class="text-2xl inline">$${price}/mo</span>
+          <p class=" w-36 text-2xl "></p>
+            
+            <p class="text-xl  ">${name}</p>
+            <p><i class="fa-solid fa-location-dot"></i> ${location}</p>
+          </div>
+            
+              <div class="flex items-center  pt-2">
+              <button id="eliminarCrud" class="bg-red-600 mt-10 text-white cursor-pointer px-5 mx-2 p-3">Eliminar</button>
+              <button  class="bg-cyan-300 mt-10 text-white cursor-pointer px-5 mx-2  py-3">Editar</button>
+              </div>
+          
+  
+        </article>
+    </div>
+      </div>
+
+</main>
+<script src="../js/index.js"></script>
+</body>
+</html>

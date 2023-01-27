@@ -1,0 +1,164 @@
+:root{
+    --primary-color: #f8f8f8;
+    --gray-color: #6F6F6F;
+    --white-color: #fff;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #000;
+    font-size: 1.6rem;
+}
+.navbar{
+    padding: 0px 28px;
+    color: #48bbca;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color);
+}
+
+
+.navbar img{
+    width: 80px;
+}
+.right-bar{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navbar a{
+    color: inherit;
+    display: contents;
+}
+.navbar i{
+    height:30px ;
+    width: 20px;
+    color: #f8c538;
+}
+.navbar .cantidad{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: red;
+}
+
+.main-container{
+    padding: 50px 20px;
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.video{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.productos a{
+    display: contents;
+}
+.productos img{
+    width: 60%;
+}
+
+.productos p:nth-child(2){
+    margin-top: 10px;
+}
+
+
+.categorias{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categorias a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #e8374a;
+}
+.categorias a:hover{
+    font-size: 2.0rem;
+}
+.textoR{
+    color: orange;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var( --white-color);
+}
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul {
+    font-size: 1.5rem;
+    color: #48bbca;
+    font-weight: 500px;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.left li {
+    margin: 10px 0;
+}
+.left a {
+    text-decoration: none;
+    color: var(--just-white);
+}
+.right img{
+    width: 100px;
+}
+@media screen and (min-width:420px) {
+    .main-container{
+        padding: 10px 20px;
+        font-size: 1.6rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+    .productos{
+        margin-bottom: 20px;
+    }
+    .categorias{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
