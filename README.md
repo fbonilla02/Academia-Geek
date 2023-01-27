@@ -5,9 +5,10 @@
     * [Práctica](#practica)
 3. [vista previa](#vistaprevia)
     * [pastor Aleman](#pastorAleman)
-    * [We Are BoadWay](weare)
-    * [calculador de propinas](propina)
-    * [Loki](loki)
+    * [We Are BoadWay](#weare)
+    * [calculador de propinas](#propina)
+    * [Loki](#loki)
+    * [j-shop](#jsop)
 
 ## ACADEMIA GEEK <a name="id1"></a>
 
@@ -67,6 +68,8 @@ A continuacion encontrara dos tablas la cuales se dividen en el entrenamiento y 
 
 ![-127-0-0-1-5500-Tarea-02-Reto1](https://user-images.githubusercontent.com/53198057/215219134-7678bc0a-d401-4a24-a9a4-01ff88c17c7b.png)
 
+### j-shop <a name="jshop"></a>
+![scrnli_1_27_2023_6-50-16 PM](https://user-images.githubusercontent.com/53198057/215226936-4285527f-e471-47f4-a7d2-3c2e4c95b355.png)
 
 ### Nota
 
