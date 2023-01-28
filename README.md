@@ -24,34 +24,34 @@ A continuacion encontrara dos tablas la cuales se dividen en el entrenamiento y 
 
 | Sprint | Nombre | Descripcion | codigo | liveDemo | 
 |---|---|---|---|---|
-|1| Pastor Aleman | HTML y CSS |  | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-01/reto1/) |
-|1| We Are BoadWay | HTML Y CSS | |[DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-01/reto2/) |
-|1| Calculadora de Propinas | HTML, CSS y JavaScript | | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-01/proyectofinal/) |
+|1| Pastor Aleman | HTML y CSS | [Codigo](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-01/Reto1) | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-01/reto1/) |
+|1| We Are BoadWay | HTML Y CSS | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-01/Reto2) |[DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-01/reto2/) |
+|1| Calculadora de Propinas | HTML, CSS y JavaScript | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-01/ProyectoFinal) | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-01/proyectofinal/) |
 |---|---|--|--|--|
-|2|Loki | HTML y CSS - Responsive | |[DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-02/reto1/)
-|2|Planes y precios | HTML y CSS - Responsive | | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-02/reto2/) |
-|2|VideoTube | HTML CSS, JavaScript -  API, Responsive | | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-02/proyectofinal/) |
+|2|Loki | HTML y CSS - Responsive | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-02/Reto1) |[DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-02/reto1/)
+|2|Planes y precios | HTML y CSS - Responsive | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-02/Reto2) | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-02/reto2/) |
+|2|VideoTube | HTML CSS, JavaScript -  API, Responsive | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-02/proyectoFinal) | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-02/proyectofinal/) |
 |----|--|---|-----|--|
-|3 | Conteo de muertos edad media | Javascript | ---- |[DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-03/logica/algoritmo1/)
-|3 | Nivel de panico | Javascript | ---- | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-03/logica/algoritmo2/)
-|3 | Ecommerce | HTML, CSS, JavaScript, API - Responsive | --- | [DEMO](https://amazing-souffle-a5274c.netlify.app/)
+|3 | Conteo de muertos edad media | Javascript | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-03/Logica/algoritmo1) |[DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-03/logica/algoritmo1/)
+|3 | Nivel de panico | Javascript | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-03/Logica/algoritmo1) | [DEMO](https://fancy-raindrop-3d1dea.netlify.app/tarea-03/logica/algoritmo2/)
+|3 | Ecommerce | HTML, CSS, JavaScript, API - Responsive | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Entrenamiento/Tarea-03/Ecommerce) | [DEMO](https://amazing-souffle-a5274c.netlify.app/)
 
 
 ## Práctica<a name="practica"></a>
 
 | Sprint | Nombre | Descripcion | Codigo | LiveDemo |
 |---|---|---|---|---|
-|1|BookMark | HTML, CSS y JS | | [DEMO](https://deluxe-zabaione-47df78.netlify.app/) |
-|1| Foot Hut | HTML, CSS, JS, PostCss | | [DEMO](https://majestic-buttercream-d3a08a.netlify.app/)
-|1| RealMod |  HTML, CSS, PostCSS, Tailwind, webpack, API | | [DEMO](https://chimerical-squirrel-f607e3.netlify.app/)
+|1|BookMark | HTML, CSS y JS | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-1-fbonilla02/reto-1) | [DEMO](https://deluxe-zabaione-47df78.netlify.app/) |
+|1| Foot Hut | HTML, CSS, JS, PostCss | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-1-fbonilla02/reto-2) | [DEMO](https://majestic-buttercream-d3a08a.netlify.app/)
+|1| RealMod |  HTML, CSS, PostCSS, Tailwind, webpack, API | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-1-fbonilla02/proyecto) | [DEMO](https://chimerical-squirrel-f607e3.netlify.app/)
 |---|---|---|---|---|
-|2|Aerial | React, Styled-component | | [DEMO](https://verdant-empanada-3629ae.netlify.app/)
-|2|Timer | React, Styled.component | | [DEMO](https://idyllic-starship-05a660.netlify.app/)
-|2|Delivery | React, styled-compoent | | [DEMO](https://superlative-salmiakki-90158b.netlify.app/AllData)|
+|2|Aerial | React, Styled-component | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-2-fbonilla02/reto-1) | [DEMO](https://verdant-empanada-3629ae.netlify.app/)
+|2|Timer | React, Styled.component | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-2-fbonilla02/reto-2) | [DEMO](https://idyllic-starship-05a660.netlify.app/)
+|2|Delivery | React, styled-compoent | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-2-fbonilla02/proyecto) | [DEMO](https://superlative-salmiakki-90158b.netlify.app/AllData)|
 |---|---|---|---|---|
-|3| J-shop | React, PostCSS, tailwindCss, daisyui | | [DEMO](https://amazing-dieffenbachia-40f37f.netlify.app/)| 
-|3| TodoApp | React, Redux | | [DEMO](https://stupendous-kelpie-70d980.netlify.app/)|
-|3| BuffaloApp | React,Redux,firebase, formik, yup | |[DEMO](https://clever-sfogliatella-3c26f6.netlify.app/login)|
+|3| J-shop | React, PostCSS, tailwindCss, daisyui | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-3-fbonilla02/reto-1) | [DEMO](https://amazing-dieffenbachia-40f37f.netlify.app/)| 
+|3| TodoApp | React, Redux | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-3-fbonilla02/reto-2) | [DEMO](https://stupendous-kelpie-70d980.netlify.app/)|
+|3| BuffaloApp | React,Redux,firebase, formik, yup | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-3-fbonilla02/proyecto) |[DEMO](https://clever-sfogliatella-3c26f6.netlify.app/login)|
 
 ## Vista Previa<a name="vistaprevia"></a>
 ### Pastor aleman <a name="pastorAleman"></a>
