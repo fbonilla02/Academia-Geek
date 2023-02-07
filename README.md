@@ -8,7 +8,9 @@
     * [We Are BoadWay](#weare)
     * [calculador de propinas](#propina)
     * [Loki](#loki)
-    * [j-shop](#jsop)
+    * [j-shop](#jshop)
+4. [Fixes](#fixes)
+5. [Nota](notas)
 
 ## ACADEMIA GEEK <a name="id1"></a>
 
@@ -45,7 +47,7 @@ A continuacion encontrara dos tablas la cuales se dividen en el entrenamiento y 
 |1| Foot Hut | HTML, CSS, JS, PostCss | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-1-fbonilla02/reto-2) | [DEMO](https://majestic-buttercream-d3a08a.netlify.app/)
 |1| RealMod |  HTML, CSS, PostCSS, Tailwind, webpack, API | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-1-fbonilla02/proyecto) | [DEMO](https://chimerical-squirrel-f607e3.netlify.app/)
 |---|---|---|---|---|
-|2|Aerial | React, Styled-component | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-2-fbonilla02/reto-1) | [DEMO](https://verdant-empanada-3629ae.netlify.app/)
+|2|Aerial | React, Styled-component | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-2-fbonilla02/reto-1) | [DEMO-OLD](https://verdant-empanada-3629ae.netlify.app/) [DEMO-NEW](https://polite-syrniki-3f309d.netlify.app/)
 |2|Timer | React, Styled.component | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-2-fbonilla02/reto-2) | [DEMO](https://idyllic-starship-05a660.netlify.app/)
 |2|Delivery | React, styled-compoent | [CODIGO](https://github.com/fbonilla02/Academia-Geek/tree/main/Practica/frontend-sprint-2-fbonilla02/proyecto) | [DEMO](https://superlative-salmiakki-90158b.netlify.app/AllData)|
 |---|---|---|---|---|
@@ -71,7 +73,11 @@ A continuacion encontrara dos tablas la cuales se dividen en el entrenamiento y 
 ### j-shop <a name="jshop"></a>
 ![scrnli_1_27_2023_6-50-16 PM](https://user-images.githubusercontent.com/53198057/215226936-4285527f-e471-47f4-a7d2-3c2e4c95b355.png)
 
-### Nota
+
+### Fixes <a name="fixes"></a>
+  Aerial: Corregi El Proyecto el cual fue de los primeros que realice en React y no tenia mucho conocimiento de los componentes ni de style
+
+### Nota<a name="notas"></a>
 
 Tengo pensado en Arreglar la mayoria de proyectos debido a que no tengo el conocimiento que tengo actualmente, He mejorado habilidades de React y backend.
 
